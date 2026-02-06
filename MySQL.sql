@@ -1,0 +1,11 @@
+CREATE DATABASE resume_app;
+
+USE resume_app;
+
+CREATE TABLE payments (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(100),
+ amount INT,
+ payment_id VARCHAR(100),
+ date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
